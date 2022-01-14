@@ -1,0 +1,142 @@
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+
+
+  #Cedula {
+      border-radius: 4px;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 3%;
+      width: 85%;
+      border: 0;
+      background-color: rgb(224, 224, 224);
+  }
+
+  input#Cedula:focus {
+      border-bottom: solid rgb(107, 213, 238);
+      background-color: rgb(255, 255, 255);
+  }
+
+  a#createAccount{
+      margin-top: 20%;
+      color: rgb(87, 107, 147);
+      font-size: small;
+  }
+
+  #password {
+    border-radius: 4px;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    width: 85%;
+    border: 0;
+    background-color: rgb(224, 224, 224);
+  }
+
+  input#password:focus{
+    border-bottom: solid rgb(107, 213, 238);
+    background-color: rgb(255, 255, 255);
+  }
+
+  input#Cedula:focus-visible {
+    outline: none;
+  }
+
+  input#password:focus-visible {
+    outline: none;
+  }
+
+
+  .content {
+      background-color: rgb(250, 250, 250);
+      padding-top: 7%;
+      padding-bottom: 7%;
+      border-top-right-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+  }
+
+
+  .welcomeUser {
+      color: rgb(63, 84, 131);
+  }
+
+  .dearUser {
+      color: rgb(2, 87, 113);
+      text-align: center;
+  }
+
+  button#continue {
+      margin-top: 10%;
+      margin-left: 50%;
+      font-size: large;
+      border: 0;
+      background-color: rgb(250, 250, 250);
+      font-family: 'Open Sans', sans-serif;
+      cursor: cell;
+  }
+  
+
+  p#autor{
+      margin-top: 20%;
+      color: rgb(87, 107, 147);
+      font-size: small;
+  }
+  
+  a#dir{
+      color: rgb(63, 84, 131);
+      font-size: small;
+  }
+
+  #valido{
+    color: rgb(87, 107, 147);
+  }
+
+  #datos{
+    color: rgb(87, 107, 147);
+    padding-bottom: -10%;
+  }
+
+  span.separate{
+    border: solid rgb(87, 107, 147) 2px;
+    border-radius: 1px;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(87, 107, 147);
+    display: block;
+    margin-inline: auto
+  }
+
+  div#information{
+    background-color: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+  }
+
+h3 {
+    margin: 40px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
